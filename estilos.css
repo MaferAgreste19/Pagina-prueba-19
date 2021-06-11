@@ -1,0 +1,64 @@
+marquee{
+	color: white;
+	font-size: 5rem;
+	background-color:lightskyblue;
+	font-family: algerian;
+	border-radius: 40px;
+	border:solid;
+} 
+
+h3{
+	font-size: 1.5rem;
+	font-family: rockwell;
+}
+
+p{
+	font-family: consolas;
+	font-size: 1rem
+}
+
+.itac img{
+	height: 150px;
+	width: 130px;
+	float: left;
+	margin-left: 30px;
+	margin-right: 25px;
+	display: inline-block;
+}
+
+.chiapas img{
+	height: 135px;
+	width: 140px;
+	float: right;
+	margin-right: 30px;
+	margin-left: 25px;
+	display: inline-block;
+}
+
+.datos{
+	font-size: 3.5rem;
+}
+
+.efectos img{
+	border-style: dotted;
+	transition: all 0.5s linear;
+	cursor: pointer;
+}
+
+.efectos img:hover{
+   transform: scale(0.6);
+   border-radius: 30px;
+}
+
+.logo img{
+	border-radius: 10px;
+
+}
+
+body{
+	background-image:url(https://i.pinimg.com/originals/dc/0d/1c/dc0d1cca65b1525d3f5223728ef7e268.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
